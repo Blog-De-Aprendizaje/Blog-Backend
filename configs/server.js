@@ -6,6 +6,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 import postsRoutes from "../src/posts/post.routes.js";
 import commentsRoutes from "../src/comments/comment.routes.js";
+import { swaggerDocs, swaggerUi } from "./swagger.js";
 import { dbConnection } from "./mongo.js"
 
 const middlewares = (app) => {
@@ -22,6 +23,7 @@ const configs = (app) => {
 const routes = (app) => {
     app.use("/blogAprendizaje/v1/posts", postsRoutes),
     app.use("/blogAprendizaje/v1/comments", commentsRoutes)
+    app.use("/blogAprendizaje/v1/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs))
 }
 
 const conectarDB = async () => {

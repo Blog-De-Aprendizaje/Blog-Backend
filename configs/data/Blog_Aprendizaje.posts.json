@@ -1,0 +1,322 @@
+[{
+  "_id": {
+    "$oid": "681ea71501e1a2ead4cf1150"
+  },
+  "title": "React JSX",
+  "content": "Infografía beneficios de la utilización de React",
+  "course": "Tecnología III",
+  "createdAt": {
+    "$date": "2025-03-30T23:59:00.000Z"
+  },
+  "comments": [
+    {
+      "name": "David Morente",
+      "content": "No me gustó tanto esta como primer actividad.",
+      "_id": {
+        "$oid": "681ea9b9afae6535cf1a70c6"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:19:53.963Z"
+      }
+    },
+    {
+      "name": "Adrian Morataya",
+      "content": "Esta primera actividad fue bastante útil!",
+      "_id": {
+        "$oid": "681ea9aaafae6535cf1a70c2"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:19:38.699Z"
+      }
+    }
+  ],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "681ea75001e1a2ead4cf1152"
+  },
+  "title": "React Eventos y Formularios",
+  "content": "Propuesta de proyecto según guía brindada en clase",
+  "course": "Tecnología III",
+  "createdAt": {
+    "$date": "2025-04-13T23:59:00.000Z"
+  },
+  "comments": [
+    {
+      "name": "Mario Zamboni",
+      "content": "Esta actividad fue bastante buena",
+      "_id": {
+        "$oid": "681ea9d3afae6535cf1a70d9"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:20:19.016Z"
+      }
+    }
+  ],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "681ea77601e1a2ead4cf1154"
+  },
+  "title": "MERN MongoDB, Express, React, NodeJS",
+  "content": "Investigación sobre buenas prácticas de desarrollo de APIs",
+  "course": "Tecnología III",
+  "createdAt": {
+    "$date": "2025-04-27T23:59:00.000Z"
+  },
+  "comments": [
+    {
+      "name": "Harol Rodriguez",
+      "content": "10/10",
+      "_id": {
+        "$oid": "681ea9e3afae6535cf1a70ee"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:20:35.643Z"
+      }
+    }
+  ],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "681ea7a001e1a2ead4cf1156"
+  },
+  "title": "React Rutas públicas y rutas privadas, MVC",
+  "content": "Exposición de propuesta realizada en semana 3",
+  "course": "Tecnología III",
+  "createdAt": {
+    "$date": "2025-05-11T23:59:00.000Z"
+  },
+  "comments": [
+    {
+      "name": "David Morente",
+      "content": "A mi no me parecio tan buena",
+      "_id": {
+        "$oid": "681eaa01afae6535cf1a7109"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:21:05.207Z"
+      }
+    },
+    {
+      "name": "Alexis Monroy",
+      "content": "Me encanto esta actividad",
+      "_id": {
+        "$oid": "681ea9f3afae6535cf1a7105"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:20:51.419Z"
+      }
+    }
+  ],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "681ea7c801e1a2ead4cf1158"
+  },
+  "title": "Frameworks de Diseño Bootstrap, Tailwind, Sweet Alert2, etc.",
+  "content": "Conceptos vistos semana 1 - 6",
+  "course": "Tecnología III",
+  "createdAt": {
+    "$date": "2025-05-18T23:59:00.000Z"
+  },
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681ea82d01e1a2ead4cf1172"
+  },
+  "title": "React Componentes, Hooks, Props",
+  "content": "Ejercicios de lógica con JavaScript en plataforma “HackerRank”",
+  "course": "Taller III",
+  "createdAt": {
+    "$date": "2025-04-06T23:59:00.000Z"
+  },
+  "comments": [
+    {
+      "name": "Randy Oscal",
+      "content": "La mia tambien!",
+      "_id": {
+        "$oid": "681eaa19afae6535cf1a7130"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:21:29.521Z"
+      }
+    },
+    {
+      "name": "Adrian Morataya",
+      "content": "Esta fue mi actividad favorita!",
+      "_id": {
+        "$oid": "681eaa10afae6535cf1a712c"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:21:20.479Z"
+      }
+    }
+  ],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "681ea84f01e1a2ead4cf1174"
+  },
+  "title": "React Enrutamiento",
+  "content": "Revisión de avances en proyecto bimestral “Gestor de Hoteles”.",
+  "course": "Taller III",
+  "createdAt": {
+    "$date": "2025-05-04T23:59:00.000Z"
+  },
+  "comments": [
+    {
+      "name": "Abner del Cid",
+      "content": "A mi no me parecio tan buena personalmente",
+      "_id": {
+        "$oid": "681eaa34afae6535cf1a7145"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:21:56.386Z"
+      }
+    },
+    {
+      "name": "Mario Zamboni",
+      "content": "Esta actividad fue muy util para mi",
+      "_id": {
+        "$oid": "681eaa27afae6535cf1a7141"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:21:43.113Z"
+      }
+    }
+  ],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "681ea86e01e1a2ead4cf1176"
+  },
+  "title": "React Rutas públicas y rutas privadas, MVC",
+  "content": "Blog, “Diario del programador”",
+  "course": "Taller III",
+  "createdAt": {
+    "$date": "2025-05-11T23:59:00.000Z"
+  },
+  "comments": [
+    {
+      "name": "Josue Garcia",
+      "content": "A mi parecer la dificultad fue bastante alta!",
+      "_id": {
+        "$oid": "681eaa58afae6535cf1a715e"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:22:32.374Z"
+      }
+    },
+    {
+      "name": "Derian Hernandez",
+      "content": "La dificultad de esta actividad fue bastante baja",
+      "_id": {
+        "$oid": "681eaa49afae6535cf1a715a"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:22:17.379Z"
+      }
+    }
+  ],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "681ea89301e1a2ead4cf1178"
+  },
+  "title": "Frameworks de Diseño Bootstrap, Tailwind, Seet Alert2, etc.",
+  "content": "Manual de usuario y documentación de proyecto “Gestor de Hoteles”",
+  "course": "Taller III",
+  "createdAt": {
+    "$date": "2025-05-18T23:59:00.000Z"
+  },
+  "comments": [
+    {
+      "name": "Alexis Monroy",
+      "content": "No me gusto tanto esta actividad en concreto",
+      "_id": {
+        "$oid": "681eaa69afae6535cf1a7177"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:22:49.444Z"
+      }
+    }
+  ],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "681ea8c301e1a2ead4cf117a"
+  },
+  "title": "React JSX",
+  "content": "Exposición Grupal # 1 Frameworks para aplicaciones híbridas ",
+  "course": "Práctica supervisada III",
+  "createdAt": {
+    "$date": "2025-04-06T23:59:00.000Z"
+  },
+  "comments": [
+    {
+      "name": "Alexis Monroy",
+      "content": "A mi parecer fue bastante buena!",
+      "_id": {
+        "$oid": "681eaa95afae6535cf1a71a5"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:23:33.487Z"
+      }
+    },
+    {
+      "name": "David Morente",
+      "content": "Me gusto bastante",
+      "_id": {
+        "$oid": "681eaa8cafae6535cf1a719f"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:23:24.572Z"
+      }
+    },
+    {
+      "name": "Mario Rodriguez",
+      "content": "Esta actividad estuvo a la altura",
+      "_id": {
+        "$oid": "681eaa86afae6535cf1a719a"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:23:18.265Z"
+      }
+    },
+    {
+      "name": "Adrian Morataya",
+      "content": "Esta actividad fue bastante buena tambien",
+      "_id": {
+        "$oid": "681eaa79afae6535cf1a7196"
+      },
+      "createdAt": {
+        "$date": "2025-05-10T01:23:05.747Z"
+      }
+    }
+  ],
+  "__v": 4
+},
+{
+  "_id": {
+    "$oid": "681ea8dc01e1a2ead4cf117c"
+  },
+  "title": "React Enrutamiento",
+  "content": "Administración de almacenadora",
+  "course": "Práctica supervisada III",
+  "createdAt": {
+    "$date": "2025-05-04T23:59:00.000Z"
+  },
+  "comments": [],
+  "__v": 0
+}]
