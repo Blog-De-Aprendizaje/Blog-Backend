@@ -8,8 +8,11 @@ import postsRoutes from "../src/posts/post.routes.js";
 import commentsRoutes from "../src/comments/comment.routes.js";
 import { swaggerDocs, swaggerUi } from "./swagger.js";
 import { dbConnection } from "./mongo.js"
+import path from 'path';
+const __dirname = path.resolve();
 
 const middlewares = (app) => {
+    app.use('/uploads', express.static(path.join(__dirname, 'public', 'uploads')));
     app.use(express.urlencoded({ extended: false }));
     app.use(express.json());
 };
