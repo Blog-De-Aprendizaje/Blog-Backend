@@ -1,5 +1,6 @@
 import { Router } from 'express';
-import { createPost, getPosts, getPostById } from './post.controller.js';
+import { createPost, updatePost, getPosts, getPostById } from './post.controller.js';
+import { uploadPostPicture } from '../middlewares/multer-uploads.js';
 import { validatePost } from '../middlewares/validate-posts.js';
 
 const router = Router();
@@ -31,7 +32,7 @@ const router = Router();
  *       500:
  *         description: Internal server error
  */
-router.post('/createPost', validatePost, createPost);
+router.post('/createPost', uploadPostPicture.single("postPicture"), validatePost, createPost);
 
 /**
  * @swagger
@@ -69,5 +70,7 @@ router.get('/getPosts', getPosts);
  *         description: Internal server error
  */
 router.get('/getPostById/:id', getPostById);
+
+router.put('/updatePost/:id', uploadPostPicture.single("postPicture"), updatePost);
 
 export default router;
