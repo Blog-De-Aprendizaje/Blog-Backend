@@ -44,6 +44,42 @@
 					"response": []
 				},
 				{
+					"name": "Update Post",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "postPicture",
+									"type": "file",
+									"src": "/C:/Users/PC/Downloads/IMAGENES/12.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:3000/blogAprendizaje/v1/posts/updatePost/681ea71501e1a2ead4cf1150",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3000",
+							"path": [
+								"blogAprendizaje",
+								"v1",
+								"posts",
+								"updatePost",
+								"681ea71501e1a2ead4cf1150"
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "Get Post",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
